@@ -1,4 +1,4 @@
-x=[0,1,2,3]
+x=list(map(float,input().split()))
 try:
      print(x[4])
 except IndexError:
