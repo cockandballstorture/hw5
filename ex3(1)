@@ -1,0 +1,9 @@
+try:
+     x = open("qq.txt", "r")
+     k = x.read()
+except UnicodeDecodeError:
+    print("no")
+    x.close()
+else:
+    print(k)
+    x.close()
