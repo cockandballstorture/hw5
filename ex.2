@@ -1,0 +1,11 @@
+k=int(input())
+w=int(input())
+z=int(input())
+def q():
+  x = z
+  while x<k:
+    yield x
+    x+= w
+x=q()
+k = [i for i in x]
+print(k)
