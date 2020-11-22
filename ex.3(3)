@@ -1,0 +1,8 @@
+x=int(input())
+w=int(input())
+try:
+  w=w/x
+except ZeroDivisionError:
+  print("input=0")
+else:
+  print(w)
