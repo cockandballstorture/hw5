@@ -1,0 +1,8 @@
+def q():
+  x = 0
+  while x>=0:
+    yield x
+    x+= 1
+x=q()
+k = [i for i in x]
+print(k)
