@@ -1,0 +1,5 @@
+x=[0,1,2,3]
+try:
+     print(x[4])
+except IndexError:
+    print("no")
