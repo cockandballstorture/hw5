@@ -1,0 +1,7 @@
+try:
+     x = open("qq.txt", "r")
+except FileNotFoundError:
+    print("no file")
+else:
+    k = x.read()
+    print(k)
